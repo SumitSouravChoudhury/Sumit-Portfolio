@@ -1,0 +1,302 @@
+@media screen and (max-width: 420px) {
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .comment {
+        display: none;
+    }
+
+    .hamburger {
+        display: block !important;
+        margin: 20px !important;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0 !important;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg) !important;
+
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg) !important;
+
+    }
+
+    .nav-ul {
+        position: fixed !important;
+        left: -115% !important;
+        top: 40px !important;
+        gap: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        background-color: white !important;
+        width: 100% !important;
+        height: 100vh !important;
+        text-align: center !important;
+        transition: 0.3s !important;
+        padding: 30px 0px !important;
+        z-index: 2 !important;
+    }
+
+    .nav-item {
+        margin: 11px 0 !important;
+    }
+
+    .nav-ul.active {
+        left: -35px !important;
+    }
+
+    .navbar h2 {
+        font-size: 1rem !important;
+    }
+
+    .foot {
+        text-align: center !important;
+        font-size: 0.8rem !important;
+        padding: 0 10px !important;
+    }
+
+    .container1 {
+        padding-top: 55px !important;
+        padding-bottom: 15px !important;
+        background: #dad0c6 !important;
+    }
+
+    .div {
+        width: 120px !important;
+        margin: 0px 10px;
+    }
+
+    .div div {
+        display: none !important;
+    }
+
+    .item11 {
+        width: 280px !important;
+        margin-bottom: 45px !important;
+    }
+
+    .item11 img {
+        width: 150px !important;
+    }
+
+    .item11 h3 {
+        font-size: 1.4rem !important;
+    }
+
+    .item11 h2 {
+        font-size: 1rem !important;
+    }
+
+    .social {
+        width: 280px;
+    }
+
+    .item12 {
+        height: auto !important;
+        width: auto !important;
+        padding: 25px !important;
+    }
+
+    .item12 h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .item12 h3 {
+        font-size: 1.2rem !important;
+        margin: 17px 0px !important;
+    }
+
+    .item12 button {
+        padding: 8px 20px !important;
+        font-size: 0.8rem !important;
+    }
+
+    .item12 p {
+        font-size: 1rem !important;
+    }
+
+    .container2 {
+        padding: 5px !important;
+    }
+
+    .container2 header {
+        font-size: 1.5rem !important;
+        margin-bottom: 20px !important;
+        margin-top: 30px !important;
+    }
+
+    .greet {
+        padding: 20px !important;
+    }
+
+    .container2 h3 {
+        font-size: 1rem !important;
+    }
+
+    .form {
+        padding: 20px !important;
+        margin: 10px 0 !important;
+    }
+
+    input {
+        margin-top: 5px !important;
+        padding: 10px !important;
+        width: 265px !important;
+        font-size: 0.88rem !important;
+    }
+
+    input.message {
+        margin-top: 5px !important;
+        padding: 15px 10px !important;
+        padding-bottom: 50px !important;
+        width: 265px !important;
+        font-size: 0.88rem !important;
+    }
+
+    .input label {
+        margin-bottom: 2px !important;
+        margin-top: 25px !important;
+    }
+
+    .btt {
+        width: 265px !important;
+    }
+
+    .container3 {
+        padding: 10px !important;
+    }
+
+    .container3 header {
+        font-size: 1.5rem !important;
+        margin-bottom: 10px !important;
+        margin-top: 40px !important;
+    }
+
+    .item3s {
+        padding: 0px 5px !important;
+        width: auto !important;
+        justify-content: center !important;
+    }
+
+    .item3s header {
+        font-size: 1.6rem !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+
+    .item31s {
+        width: 290px !important;
+        padding: 20px 0 !important;
+    }
+
+    .item31s img {
+        width: 250px !important;
+    }
+
+    .item311s {
+        width: 290px !important;
+    }
+
+    .item311s p {
+        font-size: 0.88rem !important;
+    }
+
+    .item3 {
+        padding: 0px 5px !important;
+        width: auto !important;
+        justify-content: center !important;
+    }
+
+    .item3 header {
+        font-size: 1.6rem !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .item31 {
+        flex-direction: column !important;
+        width: 290px !important;
+        padding: 10px !important;
+    }
+
+    .item311 {
+        width: auto !important;
+        font-size: 0.85rem !important;
+        padding: 20px 10px !important;
+    }
+
+    .item32 {
+        width: 290px !important;
+        padding: 20px !important;
+    }
+
+    .item321 {
+        padding: 10px 0px !important;
+    }
+
+    .item321 h1 {
+        font-size: 1.3rem !important;
+        font-weight: bolder !important;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    #button {
+        margin-top: 5px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .list {
+        font-size: 0.8rem !important;
+    }
+
+    .container4 {
+        padding: 10px !important;
+    }
+
+    .container4 header {
+        font-size: 2rem !important;
+        margin-bottom: 50px !important;
+        margin-top: 60px !important;
+    }
+
+    .item4 {
+        padding: 0px 5px !important;
+        width: 350px !important;
+    }
+
+    .item4 header {
+        font-size: 1.6rem !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .item41 {
+        width: 335px !important;
+    }
+
+    .item41 img {
+        width: 250px !important;
+    }
+
+    .item411 p {
+        font-size: 0.88rem !important;
+    }
+
+    .foot h2 {
+        font-size: 1rem !important;
+    }
+}
