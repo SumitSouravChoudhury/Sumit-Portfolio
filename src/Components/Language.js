@@ -12,7 +12,7 @@ function createStore(prop) {
 
 function Language() {
     return (
-        <div clasNames="item3">
+        <div className="item3">
             <header>Language</header>
             <div className="item32">
                 <div className="item321">

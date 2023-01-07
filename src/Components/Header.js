@@ -16,6 +16,7 @@ function Header() {
             hamburger.classList.remove("active");
             navMenu.classList.remove("active");
         }))
+
     }
 
     return (
@@ -31,7 +32,7 @@ function Header() {
                 <li className="nav-item"><Link to="/resume">RESUME</Link></li>
                 <li className="nav-item"><Link to="/contact">CONTACT</Link></li>
             </ul>
-            <div class="hamburger">
+            <div className="hamburger">
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
