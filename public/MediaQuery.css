@@ -18,7 +18,32 @@
         margin: 20px !important;
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    .hamu {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 0;
+        height: 100vh;
+    }
+
+    .hamu ul {
+        list-style: none;
+    }
+
+    .hamu li {
+        padding: 5px 0;
+        margin: 20px 0;
+    }
+
+    .hamu li a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+    }
+
+    /* .hamburger.active .bar:nth-child(2) {
         opacity: 0 !important;
     }
 
@@ -30,10 +55,10 @@
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg) !important;
 
-    }
+    } */
 
     .nav-ul {
-        position: fixed !important;
+        /* position: fixed !important;
         left: -115% !important;
         top: 40px !important;
         gap: 0 !important;
@@ -45,16 +70,17 @@
         text-align: center !important;
         transition: 0.3s !important;
         padding: 30px 0px !important;
-        z-index: 2 !important;
+        z-index: 2 !important; */
+        display: none;
     }
 
-    .nav-item {
+    /* .nav-item {
         margin: 11px 0 !important;
     }
 
     .nav-ul.active {
         left: -35px !important;
-    }
+    } */
 
     .navbar h2 {
         font-size: 1rem !important;
@@ -82,16 +108,16 @@
     }
 
     .item11 {
-        width: 280px !important;
+        width: 300px !important;
         margin-bottom: 45px !important;
     }
 
     .item11 img {
-        width: 150px !important;
+        width: 165px !important;
     }
 
     .item11 h3 {
-        font-size: 1.4rem !important;
+        font-size: 1.3rem !important;
     }
 
     .item11 h2 {
@@ -99,7 +125,7 @@
     }
 
     .social {
-        width: 280px;
+        width: 300px;
     }
 
     .item12 {
@@ -127,7 +153,7 @@
     }
 
     .container2 {
-        padding: 5px !important;
+        padding: 10px 5px !important;
     }
 
     .container2 header {
@@ -171,6 +197,7 @@
 
     .btt {
         width: 265px !important;
+        height: 100px !important;
     }
 
     .container3 {
@@ -198,7 +225,7 @@
     }
 
     .item31s {
-        width: 290px !important;
+        width: 300px !important;
         padding: 20px 0 !important;
     }
 
@@ -228,7 +255,7 @@
 
     .item31 {
         flex-direction: column !important;
-        width: 290px !important;
+        width: 300px !important;
         padding: 10px !important;
     }
 
@@ -239,7 +266,7 @@
     }
 
     .item32 {
-        width: 290px !important;
+        width: 300px !important;
         padding: 20px !important;
     }
 

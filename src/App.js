@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import Home from './Home';
 import Resume from './Resume';
 import Contact from './Contact';
+import Hamburger from './Hamburger';
 import { Link, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/resume" element={<Resume />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/hamburger" element={<Hamburger />} />
       </Routes>
       <Footer />
     </div>

@@ -74,6 +74,10 @@
     height: 35px;
 }
 
+.ham-link {
+    display: none;
+}
+
 .navbar {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +85,7 @@
     justify-content: space-between;
 }
 
-.navbar ul {
+.nav-ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
