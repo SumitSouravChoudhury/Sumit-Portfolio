@@ -7,7 +7,7 @@
 
 .icon {
     position: fixed;
-    height: 100vh;
+    top: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
